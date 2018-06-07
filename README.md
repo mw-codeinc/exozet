@@ -1,6 +1,6 @@
 This is solution for Exozet Frontend Challenge.
 
-Solutions covers:
+Solution covers:
 - *Accessibility*
 - *Validation* - Solution is W3C valid
 - *Semantics*
