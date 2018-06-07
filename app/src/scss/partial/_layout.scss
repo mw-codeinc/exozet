@@ -1,0 +1,710 @@
+@media only screen and (min-width: 30em) {
+  .wrapper {
+    width: 100%;
+    max-width: 65em;
+  }
+
+  .padding-right-0 {
+    padding-right: 0;
+  }
+
+  .col-1 {
+    width: 8.33333%;
+  }
+  .col-2 {
+    width: 16.66667%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33333%;
+  }
+  .col-5 {
+    width: 41.66667%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33333%;
+  }
+  .col-8 {
+    width: 66.66667%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33333%;
+  }
+  .col-11 {
+    width: 91.66667%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+}
+
+// responsive design for extra-small viewport(<=320px) e.g. iPhone5
+@media screen and (max-width: 320px) {
+  #logo {
+    width: 37px !important;
+    padding-top: 19px !important;
+  }
+
+  .padding-right-0 {
+    padding-right: 1em;
+  }
+
+  ul.navigation {
+    > li {
+      > a {
+        font-size: 8pt !important;
+        padding: 14px 6px !important;
+      }
+    }
+  }
+
+  //h2 text
+  h2 {
+    font-weight: 600;
+    margin-bottom: 5px;
+    line-height: 0.5;
+    letter-spacing: 1px;
+    font-size: 15pt;
+    word-break: break-all;
+    word-wrap: break-word;
+  }
+
+  h2.headline {
+      font-size: 15px;
+  }
+
+  .rm-responsive {
+    display: none;
+  }
+
+  // article image has no float, make it centered instead
+  #article-image, #inner-image, p#image-copyright {
+    display: block;
+    float: none !important;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: inherit !important;
+  }
+
+  #after-image {
+    margin-top: 10px;
+  }
+
+  p#image-copyright {
+    text-align: center;
+  }
+
+  .mandatory-alert {
+    font-size: 10pt;
+  }
+
+  // resize elements in form
+  .block label {
+    text-align: left !important;
+  }
+
+  .input-wrapper {
+    display: block !important;
+
+    > input.text-fields, textarea.commentary-field {
+      margin-left: inherit !important;
+      width: 100% !important;
+    }
+  }
+
+  // make image and button in image teaser smaller
+  #teaser-frame {
+    height: inherit !important;
+  }
+
+  // footer
+  .footer, span.links {
+    display: block !important;
+    margin-left: auto;
+    margin-right: auto;
+    float: none !important;
+    text-align: center;
+  }
+
+  span.footer-links {
+    > * {
+      font-size: 18px;
+      padding-top: 0;
+    }
+  }
+
+  .footer {
+    padding-bottom: 5px;
+  }
+  .footer-links {
+    padding-top: 0;
+  }
+  .col-xs-1 {
+    width: 8.33333%;
+  }
+  .col-xs-2 {
+    width: 16.66667%;
+  }
+  .col-xs-3 {
+    width: 25%;
+  }
+  .col-xs-4 {
+    width: 33.33333%;
+  }
+  .col-xs-5 {
+    width: 41.66667%;
+  }
+  .col-xs-6 {
+    width: 50%;
+  }
+  .col-xs-7 {
+    width: 58.33333%;
+  }
+  .col-xs-8 {
+    width: 66.66667%;
+  }
+  .col-xs-9 {
+    width: 75%;
+  }
+  .col-xs-10 {
+    width: 83.33333%;
+  }
+  .col-xs-11 {
+    width: 91.66667%;
+  }
+  .col-xs-12 {
+    width: 100%;
+  }
+}
+
+// responsive design for small device (<=479px)
+@media screen and (min-width: 321px) and (max-width: 479px) {
+  #logo {
+    width: 65px !important;
+    padding-top: 15px !important;
+  }
+
+  .padding-right-0 {
+    padding-right: 1em;
+  }
+
+  h2.headline {
+      font-size: 27px;
+  }
+
+  h2 {
+    font-weight: 600;
+    margin-bottom: 5px;
+    line-height: 0.5;
+    letter-spacing: 1px;
+    font-size: 12pt;
+    word-break: break-all;
+    word-wrap: break-word;
+  }
+
+  ul.navigation {
+    > li {
+      > a {
+        font-size: 10pt !important;
+        padding: 14px 5px !important;
+      }
+    }
+  }
+
+  .col-s-1 {
+    width: 8.33333%;
+  }
+  .col-s-2 {
+    width: 16.66667%;
+  }
+  .col-s-3 {
+    width: 25%;
+  }
+  .col-s-4 {
+    width: 33.33333%;
+  }
+  .col-s-5 {
+    width: 41.66667%;
+  }
+  .col-s-6 {
+    width: 50%;
+  }
+  .col-s-7 {
+    width: 58.33333%;
+  }
+  .col-s-8 {
+    width: 66.66667%;
+  }
+  .col-s-9 {
+    width: 75%;
+  }
+  .col-s-10 {
+    width: 83.33333%;
+  }
+  .col-s-11 {
+    width: 91.66667%;
+  }
+  .col-s-12 {
+    width: 100%;
+  }
+
+  #submit-button {
+    float: right !important;
+  }
+
+  .leistungsumfang {
+    font-size: 11pt !important;
+  }
+
+  .rm-responsive {
+    display: none;
+  }
+
+  // article image has no float, make it centered instead
+  #article-image, #inner-image, p#image-copyright {
+    display: block;
+    float: none !important;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: inherit !important;
+  }
+
+  #after-image {
+    margin-top: 10px;
+  }
+
+  p#image-copyright {
+    text-align: center;
+    padding-top: initial !important;
+    padding-bottom: initial !important;
+  }
+
+  .block label {
+    text-align: left !important;
+  }
+
+  .input-wrapper {
+    display: block !important;
+    -webkit-box-sizing: border-box !important; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box !important; /* Firefox, other Gecko */
+    box-sizing: border-box !important;
+
+    input.text-fields {
+      margin-left: inherit !important;
+      width: 100% !important;
+      max-width: 20em !important;
+    }
+
+    textarea {
+      float: left !important;
+      margin-left: inherit !important;
+      width: 100% !important;
+      max-width: 21em !important;
+    }
+  }
+
+  // make image and button in image teaser smaller
+  #teaser-frame {
+    height: inherit !important;
+  }
+
+  // footer
+  .footer, span.footer-links {
+    display: block !important;
+    margin-left: auto;
+    margin-right: auto;
+    float: none !important;
+    text-align: center;
+  }
+
+  span.footer-links {
+    > * {
+      font-size: 18px;
+      padding-top: 0;
+    }
+  }
+
+  .footer {
+    padding-bottom: 5px;
+  }
+  .footer-links {
+    padding-top: 0;
+  }
+}
+
+// responsive design for phablet (<=600px)
+@media screen and (min-width: 480px) and (max-width: 600px) {
+  #logo {
+    width: 100px !important;
+    padding-top: 13px !important;
+  }
+
+  .padding-right-0 {
+    padding-right: 1em;
+  }
+
+  h2.headline {
+      font-size: 27px;
+  }
+
+  .rm-m-responsive {
+    display: none;
+  }
+
+  .col-m-1 {
+    width: 8.33333%;
+  }
+  .col-m-2 {
+    width: 16.66667%;
+  }
+  .col-m-3 {
+    width: 25%;
+  }
+  .col-m-4 {
+    width: 33.33333%;
+  }
+  .col-m-5 {
+    width: 41.66667%;
+  }
+  .col-m-6 {
+    width: 50%;
+  }
+  .col-m-7 {
+    width: 58.33333%;
+  }
+  .col-m-8 {
+    width: 66.66667%;
+  }
+  .col-m-9 {
+    width: 75%;
+  }
+  .col-m-10 {
+    width: 83.33333%;
+  }
+  .col-m-11 {
+    width: 91.66667%;
+  }
+  .col-m-12 {
+    width: 100%;
+  }
+
+  .block label {
+    text-align: left !important;
+  }
+
+  .input-wrapper {
+    display: block !important;
+    float: left !important;
+    -webkit-box-sizing: border-box !important; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box !important; /* Firefox, other Gecko */
+    box-sizing: border-box !important;
+
+    input.text-fields {
+      margin-left: inherit !important;
+      width: 100% !important;
+      max-width: 20em !important;
+    }
+
+    textarea {
+      margin-left: inherit !important;
+      width: 100% !important;
+      max-width: 21em !important;
+    }
+  }
+
+  #submit-button-wrapper {
+    float: right !important;
+  }
+
+  // make image and button in image teaser smaller
+  #teaser-frame {
+    height: inherit !important;
+  }
+
+  // footer
+  .footer, span.footer-links {
+    display: block !important;
+    margin-left: auto;
+    margin-right: auto;
+    float: none !important;
+    text-align: center;
+  }
+
+  span.footer-links {
+    > * {
+      font-size: 18px;
+      padding-top: 0;
+    }
+  }
+
+  .footer {
+    padding-bottom: 5px;
+  }
+  .footer-links {
+    padding-top: 0;
+  }
+}
+
+// responsive design for tablet (<=768px)
+@media screen and (min-width: 601px) and (max-width: 768px) {
+  .padding-right-0 {
+    padding-right: 1em;
+  }
+
+  h2.headline {
+      font-size: 27px;
+  }
+
+  .rm-t-responsive {
+    display: none;
+  }
+
+  .col-t-1 {
+    width: 8.33333%;
+  }
+  .col-t-2 {
+    width: 16.66667%;
+  }
+  .col-t-3 {
+    width: 25%;
+  }
+  .col-t-4 {
+    width: 33.33333%;
+  }
+  .col-t-5 {
+    width: 41.66667%;
+  }
+  .col-t-6 {
+    width: 50%;
+  }
+  .col-t-7 {
+    width: 58.33333%;
+  }
+  .col-t-8 {
+    width: 66.66667%;
+  }
+  .col-t-9 {
+    width: 75%;
+  }
+  .col-t-10 {
+    width: 83.33333%;
+  }
+  .col-t-11 {
+    width: 91.66667%;
+  }
+  .col-t-12 {
+    width: 100%;
+  }
+
+  .block label {
+    text-align: left !important;
+  }
+
+  .input-wrapper {
+    display: block !important;
+    -webkit-box-sizing: border-box !important; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box !important; /* Firefox, other Gecko */
+    box-sizing: border-box !important;
+
+    input.text-fields {
+      margin-left: inherit !important;
+      width: 100% !important;
+      max-width: 20em !important;
+    }
+
+    textarea {
+      float: left !important;
+      margin-left: inherit !important;
+      width: 100% !important;
+      max-width: 21em !important;
+    }
+  }
+
+  // article image has no float, make it centered instead
+  #article-image, #inner-image, p#image-copyright {
+    display: block;
+    float: none !important;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: inherit !important;
+  }
+
+  p#image-copyright {
+    margin-top: 10px;
+  }
+
+  .sidebar-content {
+    font-size: 9pt;
+  }
+
+  #teaser-text {
+    font-size: 10pt;
+    margin-bottom: 5px;
+  }
+
+  p.quote {
+    font-size: 10pt !important;
+  }
+}
+
+// responsive design for desktop (768px<x<1060px)
+@media screen and (min-width: 769px) and (max-width: 1060px) {
+  .padding-right-0 {
+    padding-right: 0;
+  }
+
+  h2.headline {
+      font-size: 32px;
+  }
+
+  .rm-l-responsive {
+    display: none;
+  }
+
+  .col-l-1 {
+    width: 8.33333%;
+  }
+
+  .col-l-2 {
+    width: 16.66667%;
+  }
+
+  .col-l-3 {
+    width: 25%;
+  }
+
+  .col-l-4 {
+    width: 33.33333%;
+  }
+
+  .col-l-5 {
+    width: 41.66667%;
+  }
+
+  .col-l-6 {
+    width: 50%;
+  }
+
+  .col-l-7 {
+    width: 58.33333%;
+  }
+
+  .col-l-8 {
+    width: 66.66667%;
+  }
+
+  .col-l-9 {
+    width: 75%;
+  }
+
+  .col-l-10 {
+    width: 83.33333%;
+  }
+
+  .col-l-11 {
+    width: 91.66667%;
+  }
+
+  .col-l-12 {
+    width: 100%;
+  }
+
+  // make image and button in image teaser smaller
+  #teaser-frame {
+    height: inherit !important;
+  }
+
+  .block label {
+    text-align: left !important;
+  }
+
+  .input-wrapper {
+    display: block !important;
+    float: left !important;
+    -webkit-box-sizing: border-box !important; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box !important; /* Firefox, other Gecko */
+    box-sizing: border-box !important;
+
+    input.text-fields {
+      margin-left: inherit !important;
+      width: 100% !important;
+      max-width: 20em !important;
+    }
+
+    textarea {
+      margin-left: inherit !important;
+      width: 100% !important;
+      max-width: 21em !important;
+    }
+  }
+
+  #submit-button-wrapper {
+    float: right !important;
+  }
+}
+
+// responsive design for large viewport (>1060)
+@media screen and (min-width: 1061px) {
+  .padding-right-0 {
+    padding-right: 0;
+  }
+
+  h2.headline {
+      font-size: 32px;
+  }
+
+  .rm-xl-responsive {
+    display: none;
+  }
+
+  .col-xl-1 {
+    width: 8.33333%;
+  }
+  .col-xl-2 {
+    width: 16.66667%;
+  }
+  .col-xl-3 {
+    width: 25%;
+  }
+  .col-xl-4 {
+    width: 33.33333%;
+  }
+  .col-xl-5 {
+    width: 41.66667%;
+  }
+  .col-xl-6 {
+    width: 50%;
+  }
+  .col-xl-7 {
+    width: 58.33333%;
+  }
+  .col-xl-8 {
+    width: 66.66667%;
+  }
+  .col-xl-9 {
+    width: 75%;
+  }
+  .col-xl-10 {
+    width: 83.33333%;
+  }
+  .col-xl-11 {
+    width: 91.66667%;
+  }
+  .col-xl-12 {
+    width: 100%;
+  }
+  #teaser-frame {
+    height: inherit !important;
+  }
+}
